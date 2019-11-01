@@ -3,6 +3,9 @@ library(tidyverse)
 library(RSQLite)
 library(readxl)
 
+
+
+## Details about code taught by Kerui Cao 
 db <- read_excel("Top MA Donors 2016-2020(1).xlsx")
 Direct_JFC <- read_excel("Top MA Donors 2016-2020(1).xlsx", sheet = "Direct & JFC")
 JFC <- read_excel("Top MA Donors 2016-2020(1).xlsx", sheet = "JFC")
